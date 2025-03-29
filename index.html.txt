@@ -1,0 +1,68 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Swipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Swipe through Korean universities and choose your fit!</h1>
+        
+        <div id="swipe-container">
+            <!-- University Cards -->
+            <div class="swipe" id="swipe">
+                <div class="card">
+                    <img src="yonsei.jpg" alt="Yonsei University" class="university-img">
+                    <h2>Yonsei University</h2>
+                    <p>Yonsei University is one of the oldest and most prestigious universities in South Korea. It is located in Seoul and is known for its beautiful campus, rigorous academic programs, and international focus.</p>
+                </div>
+                <div class="card">
+                    <img src="seoul.jpg" alt="Seoul National University" class="university-img">
+                    <h2>Seoul National University</h2>
+                    <p>Seoul National University (SNU) is the most prestigious university in South Korea. It is located in the capital city, Seoul, and offers a wide range of academic disciplines.</p>
+                </div>
+                <div class="card">
+                    <img src="kaist.jpg" alt="KAIST" class="university-img">
+                    <h2>KAIST</h2>
+                    <p>KAIST (Korea Advanced Institute of Science and Technology) is a leading research university in Korea, specializing in science and technology. It has a global reputation for innovation and research excellence.</p>
+                </div>
+                <div class="card">
+                    <img src="postech.jpg" alt="POSTECH" class="university-img">
+                    <h2>POSTECH</h2>
+                    <p>POSTECH (Pohang University of Science and Technology) is one of Korea’s leading private research universities, known for its focus on science and engineering.</p>
+                </div>
+                <div class="card">
+                    <img src="korea_university.jpg" alt="Korea University" class="university-img">
+                    <h2>Korea University</h2>
+                    <p>Korea University is one of the oldest and most prestigious universities in Korea, known for its strong humanities and business programs. It is located in Seoul.</p>
+                </div>
+                <div class="card">
+                    <img src="sungkyunkwan.jpg" alt="Sungkyunkwan University" class="university-img">
+                    <h2>Sungkyunkwan University</h2>
+                    <p>Sungkyunkwan University is a private university in Seoul. It is one of the oldest educational institutions in Korea, with a long history dating back to the Joseon dynasty.</p>
+                </div>
+                <div class="card">
+                    <img src="hanyang.jpg" alt="Hanyang University" class="university-img">
+                    <h2>Hanyang University</h2>
+                    <p>Hanyang University is known for its strong engineering and business programs. It is located in Seoul and has a large student population.</p>
+                </div>
+                <div class="card">
+                    <img src="ewha.jpg" alt="Ewha Womans University" class="university-img">
+                    <h2>Ewha Womans University</h2>
+                    <p>Ewha Womans University is one of the largest women’s universities in the world. It is located in Seoul and has a strong academic reputation, particularly in the humanities and social sciences.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="buttons">
+            <button id="reject">Reject</button>
+            <button id="accept">Select</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
