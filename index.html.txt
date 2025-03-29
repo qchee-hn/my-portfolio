@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Swipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Choose a university/project that fits</h1>
+        
+        <div id="swipe-container">
+            <div class="swipe" id="swipe">
+                <div class="card">
+                    <h2>Yonsei University</h2>
+                    <p>Information about Yonsei University...</p>
+                </div>
+                <div class="card">
+                    <h2>Harvard University</h2>
+                    <p>Information about Harvard University...</p>
+                </div>
+                <div class="card">
+                    <h2>Stanford University</h2>
+                    <p>Information about Stanford University...</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="buttons">
+            <button id="reject">Reject</button>
+            <button id="accept">Select</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swipejs@2.0.1/dist/swipe.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
